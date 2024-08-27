@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
+        
+        .wrapper {
+            height: 800px;
+            width: 1089px;
+            background-color: rgb(242, 200, 120);
+        }
+        
+        header {
+            position: relative;
+        }
+        
+        header h1 {
+            position: absolute;
+            top: 45px;
+            left: 200px;
+            color: rgb(5, 61, 67);
+        }
+        
+        header h2 {
+            position: absolute;
+            top: 85px;
+            left: 400px;
+            color: rgb(226, 41, 41);
+            text-shadow: rgb(172, 113, 4) 5px 3px 3px;
+        }
+        
+        nav {
+            position: relative;
+        }
+        
+        .menu li {
+            position: absolute;
+            height: 50px;
+            width: 150px;
+            background-color: rgb(251, 98, 98);
+            list-style-type: none;
+            text-align: center;
+            border: 2px solid rgb(5, 61, 67);
+            border-radius: 10px 10px 10px 10px;
+        }
+        
+        .menu li:nth-child(5) {
+            top: 20px;
+            right: 110px;
+            line-height: 50px;
+        }
+        
+        .menu li:nth-child(4) {
+            top: 20px;
+            right: 270px;
+            line-height: 50px;
+        }
+        
+        .menu li:nth-child(3) {
+            top: 20px;
+            right: 430px;
+            line-height: 50px;
+        }
+        
+        .menu li:nth-child(2) {
+            top: 20px;
+            right: 590px;
+            line-height: 50px;
+        }
+        
+        .menu li:nth-child(1) {
+            top: 20px;
+            right: 750px;
+            line-height: 50px;
+        }
+        
+        .menu li:hover {
+            background-color: aquamarine;
+        }
+        
+        li a {
+            font-weight: bold;
+            color: rgb(5, 61, 67)
+        }
+        
+        li:hover a {
+            font-weight: bold;
+            color: rgb(66, 153, 163)
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="header.jpg" height="150" width="1089">
+            <h1>TRƯỜNG ĐẠI HỌC CÔNG NGHIÊP TP. HCM</h1>
+            <h2>Khoa Thương Mại & Du Lịch</h2>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">TRANG CHỦ</a></li>
+                <li><a href="#">DKHP</a></li>
+                <li><a href="#">ĐOÀN TN</a></li>
+                <li><a href="#">KQ HỌC TẬP</a></li>
+                <li><a href="#">THÔNG BÁO</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+</body>
+
+</html>
